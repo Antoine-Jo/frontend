@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import './Nav.css'
 
 function Nav() {
@@ -8,22 +9,26 @@ function Nav() {
         setShowLinks(!showLinks)
     }
 
+    const handleShowMenu = () => {
+        setShowLinks(!showLinks)
+    }
+
 
     return (
         <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>
             <div className="navbar__logo">Logo</div>
             <ul className="navbar__links">
                 <li className="navbar__item slideInDown-1">
-                    <a href="/" className="navbar__link">Accueil</a>
+                    <Link to='/' className='navbar__link' onClick={handleShowMenu} >Accueil</Link>
                 </li>
                 <li className="navbar__item  slideInDown-2">
-                    <a href="/" className="navbar__link">Portfolio</a>
+                    <Link to='/Portfolio' className='navbar__link' onClick={handleShowMenu} >Portfolio</Link>
                 </li>
                 <li className="navbar__item slideInDown-3">
-                    <a href="/" className="navbar__link">À propos</a>
+                    <Link to='/About' className='navbar__link' onClick={handleShowMenu} >À propos</Link>
                 </li>
                 <li className="navbar__item slideInDown-4">
-                    <a href="/" className="navbar__link">Contact</a>
+                    <Link to='/Contact' className='navbar__link' onClick={handleShowMenu} >Contact</Link>
                 </li>
             </ul>
             <button className="navbar__burger" onClick={handleShowLinks} >

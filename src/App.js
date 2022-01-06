@@ -1,23 +1,21 @@
 import './App.css';
 import Nav from './components/Nav';
+import { Routes, Route } from 'react-router-dom';
+import Home from "./Pages/Home"
+import Portfolio from "./Pages/Portfolio"
+import About from "./Pages/About"
+import Contact from "./Pages/Contact"
 
 function App() {
   return (
     <div className="App">
       <Nav />
-      <main className="main">
-        <h1>Accueil</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste accusantium ut cum beatae, nostrum quam. Porro quas consequatur delectus dolorem dolore excepturi consequuntur ratione ipsa harum ducimus velit, facilis dolor!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste accusantium ut cum beatae, nostrum quam. Porro quas consequatur delectus dolorem dolore excepturi consequuntur ratione ipsa harum ducimus velit, facilis dolor!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste accusantium ut cum beatae, nostrum quam. Porro quas consequatur delectus dolorem dolore excepturi consequuntur ratione ipsa harum ducimus velit, facilis dolor!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste accusantium ut cum beatae, nostrum quam. Porro quas consequatur delectus dolorem dolore excepturi consequuntur ratione ipsa harum ducimus velit, facilis dolor!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste accusantium ut cum beatae, nostrum quam. Porro quas consequatur delectus dolorem dolore excepturi consequuntur ratione ipsa harum ducimus velit, facilis dolor!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste accusantium ut cum beatae, nostrum quam. Porro quas consequatur delectus dolorem dolore excepturi consequuntur ratione ipsa harum ducimus velit, facilis dolor!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste accusantium ut cum beatae, nostrum quam. Porro quas consequatur delectus dolorem dolore excepturi consequuntur ratione ipsa harum ducimus velit, facilis dolor!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste accusantium ut cum beatae, nostrum quam. Porro quas consequatur delectus dolorem dolore excepturi consequuntur ratione ipsa harum ducimus velit, facilis dolor!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste accusantium ut cum beatae, nostrum quam. Porro quas consequatur delectus dolorem dolore excepturi consequuntur ratione ipsa harum ducimus velit, facilis dolor!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste accusantium ut cum beatae, nostrum quam. Porro quas consequatur delectus dolorem dolore excepturi consequuntur ratione ipsa harum ducimus velit, facilis dolor!</p>
-      </main>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Portfolio" element={<Portfolio />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 }

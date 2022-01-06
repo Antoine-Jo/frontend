@@ -14,7 +14,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, p {
+/* h1, p {
   margin-bottom: 1rem;
 }
 
@@ -31,4 +31,10 @@ a {
 .main {
   min-height: 200vh;
   padding: 6rem 1rem 1rem;
+} */
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
