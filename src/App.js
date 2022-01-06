@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav />
+      <main className="main">
+        <h1>Accueil</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste accusantium ut cum beatae, nostrum quam. Porro quas consequatur delectus dolorem dolore excepturi consequuntur ratione ipsa harum ducimus velit, facilis dolor!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste accusantium ut cum beatae, nostrum quam. Porro quas consequatur delectus dolorem dolore excepturi consequuntur ratione ipsa harum ducimus velit, facilis dolor!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste accusantium ut cum beatae, nostrum quam. Porro quas consequatur delectus dolorem dolore excepturi consequuntur ratione ipsa harum ducimus velit, facilis dolor!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste accusantium ut cum beatae, nostrum quam. Porro quas consequatur delectus dolorem dolore excepturi consequuntur ratione ipsa harum ducimus velit, facilis dolor!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste accusantium ut cum beatae, nostrum quam. Porro quas consequatur delectus dolorem dolore excepturi consequuntur ratione ipsa harum ducimus velit, facilis dolor!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste accusantium ut cum beatae, nostrum quam. Porro quas consequatur delectus dolorem dolore excepturi consequuntur ratione ipsa harum ducimus velit, facilis dolor!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste accusantium ut cum beatae, nostrum quam. Porro quas consequatur delectus dolorem dolore excepturi consequuntur ratione ipsa harum ducimus velit, facilis dolor!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste accusantium ut cum beatae, nostrum quam. Porro quas consequatur delectus dolorem dolore excepturi consequuntur ratione ipsa harum ducimus velit, facilis dolor!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste accusantium ut cum beatae, nostrum quam. Porro quas consequatur delectus dolorem dolore excepturi consequuntur ratione ipsa harum ducimus velit, facilis dolor!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste accusantium ut cum beatae, nostrum quam. Porro quas consequatur delectus dolorem dolore excepturi consequuntur ratione ipsa harum ducimus velit, facilis dolor!</p>
+      </main>
     </div>
   );
 }
