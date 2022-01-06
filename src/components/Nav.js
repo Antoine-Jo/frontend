@@ -20,12 +20,9 @@ function Nav() {
                     <a href="/" className="navbar__link">Portfolio</a>
                 </li>
                 <li className="navbar__item slideInDown-3">
-                    <a href="/" className="navbar__link">Services</a>
+                    <a href="/" className="navbar__link">À propos</a>
                 </li>
                 <li className="navbar__item slideInDown-4">
-                    <a href="/" className="navbar__link">A propos</a>
-                </li>
-                <li className="navbar__item slideInDown-5">
                     <a href="/" className="navbar__link">Contact</a>
                 </li>
             </ul>
