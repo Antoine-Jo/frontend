@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
     min-height: 75px;
     background-color: #000;
@@ -42,7 +42,7 @@
         height: 100vh;
         padding: 2rem;
         visibility: hidden;
-        background-color: #000;
+        background-color: #121212;
         transition: all 1s ease-out;
     }
 
