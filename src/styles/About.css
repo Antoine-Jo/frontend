@@ -24,6 +24,16 @@
     margin: 1rem;
 }
 
+.about__skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills__title {
+    text-align: center;
+    margin-top: 2rem;
+}
+
 
 @media screen and (min-width: 600px) {
     .about__pic {

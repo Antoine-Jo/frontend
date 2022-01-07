@@ -1,0 +1,16 @@
+.portfolio__container {
+    padding: 6rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio__title {
+    border-bottom: 1px solid #76b900;
+    text-align: center;
+}
+
+.portfolio__pic {
+    margin-top: 3rem;
+    width: 70%;
+    align-self: center;
+}
