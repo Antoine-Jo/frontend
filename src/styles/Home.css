@@ -1,17 +1,20 @@
 .home {
     display: flex;
     flex-direction: column;
-    margin-top: 25em;
+    margin-top: 20em;
+    padding: 6rem 1rem 1rem;
 }
 
 .name {
-    align-self: center;
+    text-align: center;
     font-size: 4em;
+    margin: 0 auto;
 }
 
 .Typewriter {
     font-size: 50px;
-    align-self: center;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .home__link {
@@ -23,9 +26,9 @@
     cursor: pointer;
     margin: auto;
     text-decoration: none;
-    color: #fff;
+    color: #eee;
     padding: 15px;
-    background-color: green;
+    background-color: #76b900;
     border-radius: 20px;
     font-size: 1.3em;
 }
