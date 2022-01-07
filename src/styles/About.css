@@ -1,0 +1,45 @@
+.about__container {
+    padding: 6rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__pic {
+    object-fit: cover;
+    height: 30rem;
+    width: 80%;
+    align-self: center;
+    margin-top: 3rem;
+    border-radius: 1.3rem;
+}
+
+.about__title {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+
+.about_desc {
+    text-align: center;
+    margin: 1rem;
+}
+
+
+@media screen and (min-width: 600px) {
+    .about__pic {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .about__pic {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .about__pic {
+        width: 20%;
+    }
+}
+
