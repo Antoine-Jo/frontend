@@ -31,7 +31,7 @@ function Nav() {
                     <Link to='/Contact' className='navbar__link' onClick={handleShowMenu} >Contact</Link>
                 </li>
             </ul>
-            <button className="navbar__burger" onClick={handleShowLinks} >
+            <button aria-label="Menu" className="navbar__burger" onClick={handleShowLinks} >
                 <span className="burger-bar"></span>
             </button>
         </nav>

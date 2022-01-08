@@ -34,6 +34,17 @@
     margin-top: 2rem;
 }
 
+.skills__logo {
+    display: flex;
+    margin-top: 3em;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skills__logo > img {
+    margin-right: 1em;
+}
+
 
 @media screen and (min-width: 600px) {
     .about__pic {
