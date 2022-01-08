@@ -41,10 +41,17 @@
     justify-content: space-around;
 }
 
-.skills__logo > img {
-    margin-right: 1em;
+.skill__logo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2em;
 }
 
+.skill__logo > h3 {
+    align-self: center;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
 
 @media screen and (min-width: 600px) {
     .about__pic {
