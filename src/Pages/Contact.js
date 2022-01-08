@@ -5,11 +5,11 @@ import '../styles/Contact.css';
 function Contact() {
     return (
         <div className='contact__container'>
-            <h3>Contactez-moi</h3>
-            <p>Via :</p>
-            <img src="https://img.icons8.com/color/48/000000/linkedin-2--v1.png" width='40px' height='40px' />
-            <p>Téléphone : 06.29.89.42.74</p>
-            <p>Email: antoinejonville@yahoo.fr</p>
+            <h1>Contactez-moi</h1>
+            <p className='contact__text'>Si vous n'aimez pas les formulaires, il y a toujours les classiques :</p>
+            <a href="https://www.linkedin.com/in/antoine-jonville-a12558214/" target="_blank"><img src="https://img.icons8.com/color/48/000000/linkedin-2--v1.png" width='40px' height='40px' /></a>
+            <p><span>Téléphone : </span> 06.29.89.42.74</p>
+            <p><span>Email : </span> <a href="mailto:antoinejonville@yahoo.fr">antoinejonville@yahoo.fr</a></p>
             <FormContact/>
         </div>
     )
