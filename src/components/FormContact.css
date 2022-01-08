@@ -1,0 +1,122 @@
+.contact-form {
+    margin: 7% 0 0 24%;
+    max-width: 50%;
+    position: relative;
+    max-width: 350px;
+}
+
+.contact-form > h3 {
+    margin-bottom: 20px;
+}
+
+.form-content {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr) 100px;
+}
+
+input, textarea {
+    background: none;
+    font-family: arial;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #76b900;
+}
+  
+input {
+    padding: 24px 0 12px;
+    width: 100%;
+}
+  
+.email-content {
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #76b900;
+}
+  
+#not-mail {
+    display: none;
+    position: absolute;
+    top: 8px;
+    color: red;
+    right: 0;
+    transform-origin: 50% 50%;
+}
+
+.formButton {
+    width: 30%;
+    height: 3em;
+    border-radius: 20px;
+    border: none;
+    background-color: #76b900;
+    color: #eee;
+    margin-top: 2rem;
+}
+
+.formMessage {
+    margin-top: 2rem;
+    border-radius: 20px;
+    padding: 10px;
+}
+  
+@keyframes dongle {
+    0% {
+      transform: translate(0px, 0px);
+    }
+    10% {
+      transform: translate(-10px, 0px);
+    }
+    20% {
+      transform: translate(10px, 0px);
+    }
+    30% {
+      transform: translate(-10px, 0px);
+    }
+    40% {
+      transform: translate(10px, 0px);
+    }
+    50% {
+      transform: translate(-10px, 0px);
+    }
+    60% {
+      transform: translate(10px, 0px);
+    }
+    70% {
+      transform: translate(-10px, 0px);
+    }
+    80% {
+      transform: translate(10px, 0px);
+    }
+    90% {
+      transform: translate(-10px, 0px);
+    }
+    100% {
+      transform: translate(0px, 0px);
+    }
+}
+  
+input {
+    border: none;
+    color: #eee;
+}
+  
+textarea {
+    resize: none;
+    padding: 24px 0;
+    border-left: none;
+    border-right: none;
+    color: #eee;
+}
+  
+.error::placeholder {
+    color: red;
+}
+  
+.form-message {
+    margin-top: 10px;
+    padding: 12px;
+    opacity: 0;
+    background: #76b900;
+    transition: 0.3s ease;
+    color: black;
+    border-radius: 4px;
+    box-shadow: 0 0 2px rgba(51, 51, 51, 0.3);
+}
