@@ -1,8 +1,7 @@
 .contact-form {
-    margin: 7% 0 0 24%;
-    max-width: 50%;
-    /* position: relative; */
+    margin-top: 2em;
     max-width: 350px;
+    width: 80%;
 }
 
 .contact-form > h3 {
