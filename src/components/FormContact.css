@@ -28,7 +28,7 @@ input {
 .email-content {
     /* position: relative; */
     width: 100%;
-    border-bottom: 1px solid #76b900;
+    /* border-bottom: 1px solid #76b900; */
     display: inline-flex;
     flex-direction: row-reverse;
 }
@@ -104,6 +104,7 @@ input {
 input {
     border: none;
     color: #eee;
+    border-bottom: 1px solid #76b900;
 }
   
 textarea {

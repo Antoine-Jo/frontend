@@ -20,13 +20,16 @@
 }
 
 .about_desc {
-    text-align: center;
+    /* text-align: center; */
     margin: 1rem;
+    max-width: 1025px;
+    align-self: center;
 }
 
 .about__skills {
     display: flex;
     flex-direction: column;
+    max-width: 1050px;
 }
 
 .about__skills > a {
@@ -38,6 +41,7 @@
 .skills__title {
     text-align: center;
     margin-top: 2rem;
+    justify-self: center;
 }
 
 .skills__logo {

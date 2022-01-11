@@ -26,10 +26,11 @@
 
 .contact__container p {
     text-align: center;
+    align-self: center;
 }
 
 .contact__container > a {
-    width: 5%;
+    width: auto;
     align-self: center;
     margin-top: 2rem;
 }
