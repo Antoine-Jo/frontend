@@ -32,3 +32,9 @@
     border-radius: 20px;
     font-size: 1.3em;
 }
+
+@media screen and (max-width: 767px) {
+    .home {
+        margin-top: 5em;
+    }
+}
