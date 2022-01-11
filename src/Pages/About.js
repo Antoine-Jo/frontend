@@ -15,7 +15,7 @@ function About() {
             j'aime expérimenter, découvrir et apprendre au fur et à mesure de mes projets professionnels et personnels.</p>
             <div className="about__skills">
                 <h2 className="skills__title">Mes compétences :</h2>
-                <a href="https://github.com/Antoine-Jo" target="_blank"><img src="https://img.icons8.com/fluency/48/000000/github.png"/></a>
+                <a href="https://github.com/Antoine-Jo" target="_blank" rel='noreferrer' ><img src="https://img.icons8.com/fluency/48/000000/github.png" alt='github' /></a>
                 <div className='skills__logo'>
                     <div className='skill__logo'>
                         <img width='100px' alt="svgHtml" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjRTY1MTAwIiBkPSJNNDEsNUg3bDMsMzRsMTQsNGwxNC00TDQxLDVMNDEsNXoiPjwvcGF0aD48cGF0aCBmaWxsPSIjRkY2RDAwIiBkPSJNMjQgOEwyNCAzOS45IDM1LjIgMzYuNyAzNy43IDh6Ij48L3BhdGg+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTI0LDI1di00aDguNmwtMC43LDExLjVMMjQsMzUuMXYtNC4ybDQuMS0xLjRsMC4zLTQuNUgyNHogTTMyLjksMTdsMC4zLTRIMjR2NEgzMi45eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNFRUUiIGQ9Ik0yNCwzMC45djQuMmwtNy45LTIuNkwxNS43LDI3aDRsMC4yLDIuNUwyNCwzMC45eiBNMTkuMSwxN0gyNHYtNGgtOS4xbDAuNywxMkgyNHYtNGgtNC42TDE5LjEsMTd6Ij48L3BhdGg+PC9zdmc+"/>
