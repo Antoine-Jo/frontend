@@ -16,6 +16,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  background-color: #76b900;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #000;
+}
+
 ul {
   list-style: none;
   padding: 0;
