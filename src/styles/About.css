@@ -33,10 +33,16 @@
     margin: auto;
 }
 
-.about__skills > a {
-    width: 5%;
-    align-self: center;
+.about__skills > p {
     margin-top: 2em;
+    align-self: center;
+}
+
+.about__skills > a {
+    width: auto;
+    height: auto;
+    align-self: center;
+    /* margin-top: 2em; */
 }
 
 .skills__title {
@@ -61,6 +67,29 @@
     align-self: center;
     font-size: 0.8rem;
     font-weight: 400;
+}
+
+.formations {
+    display: flex;
+    margin: auto;
+    margin-bottom: 5em;
+    padding: 0 10px 0 10px;
+    align-items: center;
+    margin-top: 3rem;
+    border-radius: 20px;
+    border: 2px solid #7451eb;
+    width: 100%;
+    height: 104px;
+    max-width: 648px;
+}
+
+.formations > img {
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.formations > p {
+    margin-left: 10px;
 }
 
 @media screen and (min-width: 600px) {

@@ -41,6 +41,7 @@ input {
     color: red;
     right: 0;
     transform-origin: 50% 50%;
+    border-bottom: 1px solid #76b900;
 }
 
 .formButton {
