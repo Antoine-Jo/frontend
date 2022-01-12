@@ -21,8 +21,8 @@ input, textarea {
 }
   
 input {
-    padding: 24px 0 12px;
-    width: 100%;
+  padding: 24px 0 12px;
+  width: 100%;
 }
   
 .email-content {
@@ -113,6 +113,7 @@ textarea {
     border-left: none;
     border-right: none;
     color: #eee;
+    border-top: none;
 }
   
 .error::placeholder {
