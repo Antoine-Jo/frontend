@@ -14,7 +14,7 @@ function About() {
             j'aime expérimenter, découvrir et apprendre au fur et à mesure de mes projets professionnels et personnels.</p>
             <div className="about__skills">
                 <h2 className="skills__title">Mes compétences :</h2>
-                <p>Vous pouvez retrouver mes projets publiques en visitant mon Github, en cliquant ci-dessous :</p>
+                <p>Vous pouvez retrouver mes projets publics en visitant mon Github, en cliquant ci-dessous :</p>
                 <a href="https://github.com/Antoine-Jo" target="_blank" rel='noreferrer' ><img src="https://img.icons8.com/fluency/48/000000/github.png" alt='github' /></a>
                 <div className='skills__logo'>
                     <div className='skill__logo'>
