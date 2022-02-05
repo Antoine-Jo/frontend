@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Nav.css'
+import logo from '../assets/Logo.png';
 
 function Nav() {
     const [showLinks, setShowLinks] = useState(false)
@@ -16,7 +17,8 @@ function Nav() {
 
     return (
         <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>
-            <div className="navbar__logo">Logo</div>
+            {/* <div className="navbar__logo">{logo}</div> */}
+            <img src={logo} alt="logo" className='navbar__logo' height='100px' width='auto' />
             <ul className="navbar__links">
                 <li className="navbar__item slideInDown-1">
                     <Link to='/frontend' className='navbar__link' onClick={handleShowMenu} >Accueil</Link>

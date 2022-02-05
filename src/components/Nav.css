@@ -30,6 +30,12 @@
     display: none;
 }
 
+@media screen and (max-width: 425px) {
+    .navbar__logo {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .navbar__links {
         flex-direction: column;
