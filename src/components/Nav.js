@@ -17,6 +17,7 @@ function Nav() {
 
     return (
         <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>
+            {/* <div className="navbar__logo">{logo}</div> */}
             <img src={logo} alt="logo" className='navbar__logo' height='100px' width='auto' />
             <ul className="navbar__links">
                 <li className="navbar__item slideInDown-1">
