@@ -21,7 +21,7 @@ function Nav() {
             <img src={logo} alt="logo" className='navbar__logo' height='100px' width='auto' />
             <ul className="navbar__links">
                 <li className="navbar__item slideInDown-1">
-                    <Link to='/frontend' className='navbar__link' onClick={handleShowMenu} >Accueil</Link>
+                    <Link to='/' className='navbar__link' onClick={handleShowMenu} >Accueil</Link>
                 </li>
                 <li className="navbar__item  slideInDown-2">
                     <Link to='/Portfolio' className='navbar__link' onClick={handleShowMenu} >Portfolio</Link>
